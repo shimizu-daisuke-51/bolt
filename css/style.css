@@ -1,0 +1,71 @@
+@charset "UTF-8";
+
+.body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+.header {
+  position: fixed;
+  padding: 15px;
+  max-width: 1100px;
+  z-index: 9999;
+  top: 0;
+  left: 0;
+}
+
+.inner-header-inner {
+  display: flex;
+  justify-content: center;
+}
+
+.logo-bolt {
+  font-size: 40px;
+  float: left;
+}
+
+.header-li {
+  padding: 14px 12px;
+  color: #fff;
+  background-color: #74cfae;
+  box-sizing: border-box;
+  float: right;
+}
+
+.bolt-themes {
+ background-color: #f2f2f2;
+}
+
+.title {
+  padding-top: 70px;
+  z-index: 5;
+}
+
+.inner-title-inner {
+  text-align: center;
+}
+
+.bolt-theme {
+  font-size: 90px;
+  font-weight: 700px;
+  color: #74cfae;
+  position: absolute;
+  top: 380px;
+  right: 0;
+  left: 0;
+  bottom: 0;
+}
+
+.free-bootstrap-themes {
+  padding: 20px;
+  font-size: 30px;
+  color: #c0c0c0;
+  position: absolute;
+  top: 500px;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  margin: auto;
+  height: 640px;
+}
