@@ -7,7 +7,7 @@
 
 .fontstyle {
   <style>
-  @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap')
   </style>
 }
 
@@ -16,7 +16,6 @@
   position: fixed;
   top: 0;
   left: 0;
-  padding: 15px 0;
   background-color: #fff;
   z-index: 9999px;
 }
@@ -30,6 +29,7 @@
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
+  padding: 15px 0;
 }
 
 .bolt-logo {
@@ -59,10 +59,11 @@
 
 .title-inner {
   text-align: center;
+  padding-top: 250px;
+  padding-bottom: 250px;
 }
 
 .bolt-theme {
-  padding-top: 250px;
   font-size: 90px;
   font-weight: 700;
   color: #74cfae;
@@ -70,7 +71,6 @@
 
 .free-bootstrap-themes {
   margin-top: 20px;
-  padding-bottom: 250px;
   font-size: 30px;
   color: #c0c0c0;
 }
@@ -82,7 +82,6 @@
 
 .iphone-inner {
   padding-top: 50px;
-  
 }
 
 .iphone-innerbox {
@@ -103,13 +102,14 @@
 .WHAT-WE-CAN-DO {
   font-size: 24px;
   color: #fff;
-  width: 647px;
+  
 }
 
 .iphone-text {
   font-size: 20px;
   color: #fff;
   margin-top: 35px;
+  width: 703px;
 }
 
 .photo-bpx {
@@ -117,10 +117,13 @@
   background-color: #f2f2f2;
 }
 
-.OUR-LATEST-WORK {
-  text-align: center;
+.img-inner {
   padding-top: 60px;
   padding-bottom: 40px;
+}
+
+.OUR-LATEST-WORK {
+  text-align: center;
   font-size: 24px;
 }
 
@@ -224,6 +227,10 @@
   color: #4e4e4e;
 }
 
+.circle-inner {
+  padding-top: 70px;
+}
+
 .circle-box {
   width: 100%;
   background-color: #4e4e4e;
@@ -231,7 +238,6 @@
 
 .our-skills {
   text-align: center;
-  padding-top: 70px;
   color: #FFF;
 }
 
