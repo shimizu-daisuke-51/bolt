@@ -5,17 +5,12 @@
   font-family: 'Raleway', sans-serif;
 }
 
-.fontstyle {
-  <style>
-  @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap')
-  </style>
-}
-
 .header {
   width: 100%;
   position: fixed;
   top: 0;
   left: 0;
+  padding: 15px 0;
   background-color: #fff;
   z-index: 9999px;
 }
@@ -29,7 +24,6 @@
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
-  padding: 15px 0;
 }
 
 .bolt-logo {
@@ -59,11 +53,10 @@
 
 .title-inner {
   text-align: center;
-  padding-top: 250px;
-  padding-bottom: 250px;
 }
 
 .bolt-theme {
+  padding-top: 250px;
   font-size: 90px;
   font-weight: 700;
   color: #74cfae;
@@ -71,6 +64,7 @@
 
 .free-bootstrap-themes {
   margin-top: 20px;
+  padding-bottom: 250px;
   font-size: 30px;
   color: #c0c0c0;
 }
@@ -82,7 +76,7 @@
 
 .iphone-inner {
   padding-top: 50px;
-}
+}  
 
 .iphone-innerbox {
   display: flex;
@@ -94,22 +88,21 @@
 }
 
 .right-text {
-  display: inline-block;
   padding-top: 20px;
+  display: inline-block;
   text-align: center;
+  width: 706px;
 }
 
 .WHAT-WE-CAN-DO {
   font-size: 24px;
   color: #fff;
-  
 }
 
 .iphone-text {
   font-size: 20px;
   color: #fff;
   margin-top: 35px;
-  width: 703px;
 }
 
 .photo-bpx {
@@ -117,13 +110,10 @@
   background-color: #f2f2f2;
 }
 
-.img-inner {
-  padding-top: 60px;
-  padding-bottom: 40px;
-}
-
 .OUR-LATEST-WORK {
   text-align: center;
+  padding-top: 60px;
+  padding-bottom: 40px;
   font-size: 24px;
 }
 
@@ -139,7 +129,7 @@
   height: 300px;
 }
 
-.img-link-up,..img-link-upright {
+.img-link-up,.img-link-upright {
   margin-bottom: 80px;
 }
 
@@ -227,10 +217,6 @@
   color: #4e4e4e;
 }
 
-.circle-inner {
-  padding-top: 70px;
-}
-
 .circle-box {
   width: 100%;
   background-color: #4e4e4e;
@@ -238,10 +224,11 @@
 
 .our-skills {
   text-align: center;
+  padding-top: 70px;
   color: #FFF;
 }
 
-.circle-innerbox,.circle-text {
+.circle-innerbox,.circle-text-inner {
   display: flex;
   justify-content: center;
 }
@@ -254,7 +241,7 @@
   padding-right: 180px;
 }
 
-.circle-text {
+.circle-text-inner {
   text-align: center;
 }
 
