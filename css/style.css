@@ -57,8 +57,7 @@
 
 .title-inner {
   text-align: center;
-  padding-top: 250px;
-  padding-bottom: 250px;
+  padding: 250px 0 250px 0;
 }
 
 .bolt-theme {
@@ -74,7 +73,6 @@
 }
 
 .iphone-box {
-  width: 100%;
   background-color: #74cfae;
 }
 
@@ -109,14 +107,8 @@
   margin-top: 35px;
 }
 
-.photo-bpx {
-  width: 1000px;
-  background-color: #f2f2f2;
-}
-
 .img-inner {
-  padding-top: 60px;
-  padding-bottom: 70px;
+  padding: 60px 0 70px 0;
 }
 
 .OUR-LATEST-WORK {
@@ -136,14 +128,6 @@
   display: block;
 }
 
-.img-box li:nth-child(2n) {
-  margin-left: 100px;
-}
-
-.img-box li:nth-child(2n+1) {
-  margin-left: 100px;
-}
-
 .img-box li:nth-child(3n+1) {
   margin-left: 0;
 }
@@ -152,17 +136,14 @@
   margin-top: 80px;
 }
 
-.img-link-down,.img-link-downleft {
-  margin-top: 80px;
-}
-
 .img-box li {
+  margin-left: 100px;
   transition: 0.3s;
   opacity: 0.7;
 }
 
 .img-box li:hover {
-  opacity: 1.0;
+  opacity: 1;
 }
 
 .down-inner {
@@ -193,27 +174,22 @@
 }
 
 .circle-box {
-  width: 100%;
   background-color: #4e4e4e;
 }
 
 .circle-inner {
-  padding-top: 70px;
-  padding-bottom: 100px;
+  padding: 70px 0 100px 0;
 }
 
 .our-skills {
   text-align: center;
-  color: #FFF;
+  color: #fff;
   font-size: 24px;
 }
 
 .circle-innerbox {
   display: flex;
   justify-content: center;
-}
-
-.circle-innerbox {
   margin-top: 50px;
 }
 
@@ -226,19 +202,17 @@
 }
 
 .circle-img-text {
-  color: #FFF;
+  color: #fff;
   font-size: 16px;
   text-align: center;
   margin-top: 10px;
 }
 
 .logo-inner {
-  width: 100%;
   background-color: #f2f2f2;
   display: flex;
   justify-content: center;
-  padding-top: 200px;
-  padding-bottom: 200px;
+  padding: 200px 0 200px 0;
 }
 
 .logo-inner li {
@@ -264,17 +238,14 @@
 }
 
 .footer {
-  width: 100%;
   background-color: #74cfae;
 }
 
 .footer-inner {
   text-align: end;
-  padding-top: 20px;
-  padding-bottom: 25px;
+  padding: 20px 0 25px 0;
 }
 
 .footer-text {
   color: #fff;
-  
 }
