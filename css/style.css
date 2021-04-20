@@ -15,7 +15,6 @@
   z-index: 9999;
   top: 0;
   left: 0;
-  padding: 15px 0;
   background-color: #fff;
 }
 
@@ -28,6 +27,7 @@
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
+  padding: 15px 0;
 }
 
 .bolt-logo {
@@ -243,17 +243,15 @@
 
 .logo-inner li {
   text-align: center;
-  width: 101px;
-  background-color: #f2f2f2;
+  width: 185px;
   transition: 0.3s;
-  padding: 28px 42px;
-  margin: 10px;
   text-decoration: none;
   display: block;
 }
 
 .logo-inner a {
   display: block;
+  padding: 20px 0;
 }
 
 .logo-inner li:hover {
