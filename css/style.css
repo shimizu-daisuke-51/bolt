@@ -48,7 +48,7 @@
 }
 
 .main {
-  padding-top: 74px;
+  padding-top: 70px;
 }
 
 .title {
@@ -92,10 +92,10 @@
 }
 
 .right-text {
-  padding-top: 20px;
+  margin-top: 20px;
   display: inline-block;
   text-align: center;
-  width: 706px;
+  width: 680px;
 }
 
 .WHAT-WE-CAN-DO {
@@ -130,6 +130,10 @@
   flex-wrap: wrap;
   display: flex;
   transition: 0.3s;
+}
+
+.img-box a {
+  display: block;
 }
 
 .img-box li:nth-child(2n) {
@@ -201,6 +205,7 @@
 .our-skills {
   text-align: center;
   color: #FFF;
+  font-size: 24px;
 }
 
 .circle-innerbox {
@@ -224,6 +229,7 @@
   color: #FFF;
   font-size: 16px;
   text-align: center;
+  margin-top: 10px;
 }
 
 .logo-inner {
@@ -237,11 +243,16 @@
 
 .logo-inner li {
   text-align: center;
-  width: 185px;
+  width: 101px;
   background-color: #f2f2f2;
   transition: 0.3s;
-  padding: 28px;
+  padding: 28px 42px;
+  margin: 10px;
   text-decoration: none;
+  display: block;
+}
+
+.logo-inner a {
   display: block;
 }
 
