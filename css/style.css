@@ -5,6 +5,35 @@
   font-family: 'Lato', sans-serif;
 }
 
+@media screen and (min-width: 1200px) {
+}
+
+@media screen and (max-width: 768px - 1199px) {
+
+}
+
+@media screen and (max-width :767px) {
+  .body {
+    width: 100%;
+    font-family: 'Lato', sans-serif;
+  }
+
+  .inner {
+    width: 767px;
+    margin: 0 auto;
+  }
+
+  .bolt-logo-hamburger {
+    font-size: 35px;
+  }  
+
+  .hamburger-btn{
+    padding: 10px;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+  }
+}
+
 .fontstyle {
   font-family: 'Raleway', sans-serif;
 }
@@ -16,6 +45,10 @@
   top: 0;
   left: 0;
   background-color: #fff;
+}
+
+.hamburger-btn {
+  display: none;
 }
 
 .inner {
@@ -57,7 +90,7 @@
 
 .title-inner {
   text-align: center;
-  padding: 250px 0 250px 0;
+  padding: 250px 0;
 }
 
 .bolt-theme {
@@ -215,7 +248,7 @@
 .logo-inner {
   display: flex;
   justify-content: center;
-  padding: 200px 0 200px 0;
+  padding: 200px 0;
 }
 
 .logo-inner li {
