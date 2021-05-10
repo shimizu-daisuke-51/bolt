@@ -65,6 +65,7 @@
   border-radius: 1px;
   margin-bottom: 5px;
   position: relative;
+  display: block;
 }
 
 .line:nth-child(n+3) {
