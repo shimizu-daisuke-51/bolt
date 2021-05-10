@@ -419,15 +419,14 @@
 
   .logo-inner{
     width: 97%;
-    display: inline-block;
+    display: block;
     padding: 50px 0;
   }
 
   .logo-inner li {
-    width: 300px;
+    width: 97%;
     display: block;
     margin: 0 auto;
-    padding: 35px 0 0 0;
   }
 
 }
